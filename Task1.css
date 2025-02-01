@@ -71,3 +71,40 @@ a:hover {
     color: #005bb5;
     text-decoration: underline;
 }
+/* Feedback Form Styling */
+form {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #007acc;
+    border-radius: 8px;
+    resize: vertical;
+}
+
+button {
+    background-color: #1e90ff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #007acc;
+}
+
+#feedbackMessage {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #007acc;
+}
