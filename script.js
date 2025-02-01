@@ -1,4 +1,3 @@
-alert("JavaScript is working!");
 document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('feedbackForm').addEventListener('submit', function(event) {
         event.preventDefault();
